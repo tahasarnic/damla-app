@@ -1,6 +1,9 @@
 import streamlit as st
-st.set_page_config(layout="wide")
 st.title("Damla'nın Aplikasyonuna Hoş Geldiniz 🌼")
+st.image("img/ergoterapi.png", use_container_width=True)
+st.balloons()
+st.set_page_config(layout="wide")
+
 
 st.markdown('### Sana yastık vermeden duramıyorum. İşte kanıtı 👇')
 st.image("img/damla_asti.png", use_container_width=True)
